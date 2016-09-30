@@ -96,4 +96,14 @@ int eulerT( int n)
 	return result;
 }
 
-// power of two big numbers
+// Calculate power of two big numbers 
+ll fastPow (ll a, ll n) {
+  
+ a %= mod;
+    if ( n == 0)
+        return 1;
+    ll half = fastPow(a,n/2) % mod;
+    if ( n %2 == 0)
+        return ( half * half ) %mod;
+    return ( (( half * half ) % mod) * a) % mod;
+}
