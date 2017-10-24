@@ -78,7 +78,6 @@ int main()
 		{
 			
 			cin >> s;
-			//insert(root,s);
 			v.pb(s);
 
 		}

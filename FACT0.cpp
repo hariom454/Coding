@@ -1,9 +1,3 @@
-/*------------------------------------\
-*	Hariom Singh					  
-*	SVNIT Surat						  
-*									  
-*------------------------------------*/
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -48,6 +42,7 @@ void primeFact( ll n)
     cout << n <<"^1"; 
     cout << "\n";
 }
+
 int main()
 {
 	ios::sync_with_stdio(false);
